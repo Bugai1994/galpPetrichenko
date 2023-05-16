@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/gulpfile.js
 
 # testing
 /coverage
