@@ -1,18 +1,17 @@
 .advantages{
     height: 470px;
-    &__title{
-        text-align: center;
-        padding-top: 73px;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 30px;
-        color: #0D0D0D;
-    }
     &__items{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         padding-top: 65px;
         padding-bottom: 65px;
+    }
+    @media (max-width: 840px){
+        &__items{
+            justify-content: space-around;
+        }
+        
     }
     &__itam{
         width: 270px;
@@ -48,3 +47,4 @@
 
 
 }
+
