@@ -3,6 +3,7 @@
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
     border: none;
+    outline: 0 !important;
 }
 
 
@@ -18,3 +19,6 @@
 @import 'blocks/titles.scss';
 @import 'blocks/consultation';
 @import 'blocks/form.scss';
+@import 'blocks/carousel';
+@import 'blocks/catalog.scss';
+@import 'blocks/feed.scss';
